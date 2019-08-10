@@ -1,0 +1,23 @@
+name = "TensorTrack"
+uuid = "7cb5a515-c017-558c-9fa1-b544a8216bf3"
+authors = ["Michael Abbott"]
+version = "0.0.1"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Strided = "5e0ebb24-38b0-5f93-81fe-25c709ecae67"
+TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
+Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
+TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
+
+[compat]
+julia = "1"
+
+[extras]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "ForwardDiff"]
